@@ -34,6 +34,7 @@
     "css-minimizer-webpack-plugin": "4.0.0",
     "csv-loader": "3.0.3",
     "file-loader": "6.2.0",
+    "gh-pages": "4.0.0",
     "html-webpack-plugin": "5.5.0",
     "less": "4.1.2",
     "less-loader": "11.0.0",
@@ -52,7 +53,9 @@
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
-    "start": "cross-env NODE_ENV=development webpack-dev-server -- mode development --open"
+    "start": "cross-env NODE_ENV=development webpack-dev-server -- mode development --open",
+    "predeploy": "NODE_DEBUG=gh-pages npm run deploy",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     ">0.25%",
