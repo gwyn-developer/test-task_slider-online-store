@@ -7,7 +7,7 @@ https://gwyn-developer.github.io/test-task_slider-online-store/
 
 **Launch project**:
 ```
-gh repo clone gwyn-developer/test-task_slider-online-store
+git clone https://github.com/gwyn-developer/test-task_slider-online-store.git
 cd test-task_slider-online-store
 npm install
 npm run build
