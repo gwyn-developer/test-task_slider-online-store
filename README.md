@@ -2,10 +2,10 @@
 
 Simple slider app using slick (https://github.com/kenwheeler/slick/), custom webpack config.
 
-Demo:
-...
+**Demo**:
+https://gwyn-developer.github.io/test-task_slider-online-store/
 
-Launch project:
+**Launch project**:
 ```
 gh repo clone gwyn-developer/test-task_slider-online-store
 cd test-task_slider-online-store
