@@ -52,7 +52,9 @@
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
-    "start": "cross-env NODE_ENV=development webpack-dev-server -- mode development --open"
+    "start": "cross-env NODE_ENV=development webpack-dev-server -- mode development --open",
+    "predeploy": "NODE_DEBUG=gh-pages npm run deploy",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     ">0.25%",
