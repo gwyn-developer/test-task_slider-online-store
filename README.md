@@ -3,7 +3,7 @@
 Simple slider app using slick (https://github.com/kenwheeler/slick/), custom webpack config.
 
 Demo:
-...
+https://gwyn-developer.github.io/test-task_slider-online-store/
 
 Launch project:
 ```
